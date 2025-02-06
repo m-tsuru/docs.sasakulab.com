@@ -1,0 +1,5 @@
+baseURL = 'https://docs.sasakulab.com/'
+languageCode = 'ja-jp'
+title = 'Docs'
+theme = 'blazing-fast'
+pluralizelisttitles = false

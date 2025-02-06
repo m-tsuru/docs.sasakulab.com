@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日報 on Docs</title>
+    <link>http://localhost:1313/categories/%E6%97%A5%E5%A0%B1/</link>
+    <description>Recent content in 日報 on Docs</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%97%A5%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日報 2025-02-06</title>
+      <link>http://localhost:1313/daily-report/2025-02-06/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/daily-report/2025-02-06/</guid>
+      <description>2025-02-06の日報</description>
+    </item>
+  </channel>
+</rss>

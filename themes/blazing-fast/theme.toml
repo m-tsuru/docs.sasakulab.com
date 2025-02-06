@@ -1,0 +1,20 @@
+name = 'Simple'
+license = 'MIT'
+licenselink = 'https://github.com/m-tsuru/docs.sasakulab.com/LICENSE'
+description = '極限までシンプルなデザイン'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/m-tsuru/docs.sasakulab.com'
+
+# If you have a running demo of the theme
+demosite = 'https://docs.sasakulab.com'
+
+# Taxonomy terms
+tags = ['blog']
+features = []
+
+# If the theme has multiple authors
+authors = [
+  {name = 'Sasakulari', homepage = 'https://sasakulab.com'},
+  {name = 'Michiru Tsurumaru', homepage = 'https://pr.sasakulab.com'}
+]

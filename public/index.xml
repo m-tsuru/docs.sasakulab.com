@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Docs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Docs</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 06 Feb 2025 16:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo でテーマからスクラッチする</title>
+      <link>http://localhost:1313/go/hugo-from-theme/</link>
+      <pubDate>Thu, 06 Feb 2025 16:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/go/hugo-from-theme/</guid>
+      <description>docs.sasakulab.com を形成する Hugo について，その過程を残しています</description>
+    </item>
+    <item>
+      <title>かつてのデジタル庁のグリッドレイアウト</title>
+      <link>http://localhost:1313/css/digital-go-jp-grid/</link>
+      <pubDate>Thu, 06 Feb 2025 16:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/css/digital-go-jp-grid/</guid>
+      <description>デジタル庁がホームページにグリッドレイアウトを使用していた頃の CSS を読み解き，グリッドレイアウトシステムを最低限利用するために必要な CSS を学びます．</description>
+    </item>
+    <item>
+      <title>日報 2025-02-06</title>
+      <link>http://localhost:1313/daily-report/2025-02-06/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/daily-report/2025-02-06/</guid>
+      <description>2025-02-06の日報</description>
+    </item>
+  </channel>
+</rss>

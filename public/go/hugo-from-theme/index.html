@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Hugo でテーマからスクラッチする | Docs</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>
+    <a href="/" class="default">Docs</a>
+</h1>
+
+  </header>
+  <main>
+    
+  <h1>Hugo でテーマからスクラッチする</h1>
+
+  
+  <div>
+      <a href="/tags/go/" class="tags"><span>Go</span></a>
+      <a href="/tags/hugo/" class="tags"><span>Hugo</span></a>
+      <a href="/tags/%E4%B9%B1%E6%96%87/" class="tags"><span>乱文</span></a>
+  </div>
+
+
+  
+  
+
+  <p><code>docs.sasakulab.com</code> は Hugo で作られています．</p>
+<h2 id="インストール">インストール</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h2 id="サイト作成">サイト作成</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new site site-name
+</span></span><span style="display:flex;"><span>cd site-name
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p><code>hugo server</code> で <a href="http://localhost:1313">http://localhost:1313</a> ホストされる．</p>
+<p>正常に (Page Not Found と言われるから異常に？) ホストされたら準備完了．<code>^C</code>で抜ける．</p>
+<h2 id="テーマ作成">テーマ作成</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new theme theme-name
+</span></span></code></pre></div><p>すると，<code>themes/theme-name</code> に新しいテーマができる．</p>
+<p>これを編集することで，最終的に完成する．頑張ってください．</p>
+
+  <hr>
+  Published at <time datetime="2025-02-06T16:00:00&#43;09:00">2025/02/06 16:00</time>
+
+  </main>
+  <footer>
+    <p class="copyright">&copy; 2025 Sasakulab.
+    Content on this site is licensed under the Creative Commons Attribution 4.0 International License.</p>
+
+  </footer>
+</body>
+</html>

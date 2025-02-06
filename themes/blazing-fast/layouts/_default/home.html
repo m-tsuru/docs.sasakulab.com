@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <p>
+    この <code>docs.sasakulab.com</code> では，外部サイトにまとめるほどでもない小さなトピックをリスティングしています．</p>
+  <h2>最新の日報</h2>
+  {{ $latestDailyReport := first 1 (where .Site.RegularPages "Section" "daily-report") }}
+  {{ range $latestDailyReport }}
+    <a href="{{ .Permalink }}">
+      <div class="EmbedCards">
+        <h3 class="EmbedCards_title">{{ .Title }}</h3>
+        <p class="EmbedCards_desc">{{ .Summary }}</p>
+      </div>
+    </a>
+  {{ end }}
+  <h2>過去の記事</h2>
+  {{ range $section := .Site.Sections }}
+    {{ if ne $section.Title "Daily-Report" }}
+      <h3>{{ $section.Title }}</h3>
+      <ul>
+        {{ range $section.Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+{{ end }}
