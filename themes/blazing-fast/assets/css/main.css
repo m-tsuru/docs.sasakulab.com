@@ -1,5 +1,5 @@
-header {
-  margin: 1rem;
+html {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .default {
@@ -9,7 +9,9 @@ header {
 body {
   background-color: #222;
   color: #ddd;
-  width: 100%;
+  width: calc(100% - 64px);
+  padding: 32px;
+  margin: 0;
 }
 
 main {
@@ -65,7 +67,7 @@ p {
   border-radius: 4px;
   flex: 1 1;
   padding: .8em 1.2em;
-  min-width: 0;
+  max-width: 100%;
 }
 
 .EmbedCards_title {

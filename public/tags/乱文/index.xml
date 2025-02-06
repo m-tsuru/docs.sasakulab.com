@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/go/hugo-from-theme/</guid>
       <description>docs.sasakulab.com を形成する Hugo について，その過程を残しています</description>
     </item>
+    <item>
+      <title>コマンド ヒストリー</title>
+      <link>http://localhost:1313/shell/command-history/</link>
+      <pubDate>Thu, 06 Feb 2025 16:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/shell/command-history/</guid>
+      <description>あなたが最も利用しているコマンドは何でしょうか</description>
+    </item>
   </channel>
 </rss>
