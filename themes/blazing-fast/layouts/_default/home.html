@@ -13,7 +13,7 @@
   {{ end }}
   <h2>過去の記事</h2>
   {{ range $section := .Site.Sections }}
-    {{ if ne $section.Title "Daily-Report" }}
+    {{ if ne $section.Title "daily-Report" }}
       <h3>{{ $section.Title }}</h3>
       <ul>
         {{ range $section.Pages }}
